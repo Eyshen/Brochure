@@ -1,4 +1,4 @@
-戴铭的小册子是个 macOS 程序。内含我写的开发常用手册和资料，[在线文字版](https://ming1016.github.io/2021/11/23/daiming-swift-pamphlet/)
+戴铭的小册子是个 macOS 程序。内含我写的开发常用手册、兴趣爱好和资料。[在线文字版](https://ming1016.github.io/2021/11/23/daiming-swift-pamphlet/)
 
 ## 下载
 

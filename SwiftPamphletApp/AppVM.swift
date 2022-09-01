@@ -19,9 +19,6 @@ final class AppVM: ObservableObject {
     @Published var devsCountNotis = 0
     // 博客动态
     @Published var rssCountNotis = 0
-    
-    // MARK: - 库存档
-    @Published var archiveRepos = [SPReposModel]()
 
     // MARK: - CCY
     // 探索更多库
@@ -117,10 +114,7 @@ final class AppVM: ObservableObject {
         alertMsg = msg
     }
     
-    // MARK: - 库存档
-    func loadArchiveRepos() {
-        archiveRepos = loadBundleJSONFile("archiveRepos.json")
-    }
+
 
     // MARK: - 获取所有探索更多库通知信息
     func loadExpFromServer() {
@@ -133,12 +127,14 @@ final class AppVM: ObservableObject {
 
                 for gr in grs {
                     for r in gr.repos {
-                        expDic[r.id] = RepoStoreDataHelper.createEmptyDBRepoStore(r.id)
-                        if let fd = try RepoStoreDataHelper.find(sFullName: r.id) {
-                            expDic[r.id]?.unRead = fd.unRead
-                        } else {
-                            _ = try RepoStoreDataHelper.insert(i: RepoStoreDataHelper.createEmptyDBRepoStore(r.id))
-                            expDic[r.id]?.unRead = 0
+                        if r.m == true {
+                            expDic[r.id] = RepoStoreDataHelper.createEmptyDBRepoStore(r.id)
+                            if let fd = try RepoStoreDataHelper.find(sFullName: r.id) {
+                                expDic[r.id]?.unRead = fd.unRead
+                            } else {
+                                _ = try RepoStoreDataHelper.insert(i: RepoStoreDataHelper.createEmptyDBRepoStore(r.id))
+                                expDic[r.id]?.unRead = 0
+                            } // end if
                         } // end if
                     } // end for
                 } // end for
@@ -280,8 +276,6 @@ final class AppVM: ObservableObject {
         // 探索更多库
         loadDBExpLoal()
         loadExpFromServer()
-        // 库存档
-        loadArchiveRepos()
     }
 
     func refreshDev() {

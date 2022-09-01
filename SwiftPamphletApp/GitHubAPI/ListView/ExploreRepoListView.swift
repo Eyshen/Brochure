@@ -16,7 +16,7 @@ struct ExploreRepoListView: View {
         List {
             if SPC.gitHubAccessToken.isEmpty == false && showAsGroup == false {
                 Section {
-                    ForEach(isArchive ? appVM.archiveRepos : appVM.exps) { er in
+                    ForEach(appVM.exps) { er in
                         ForEach(er.repos) { r in
                             ExpListUnreadLinkView(r: r)
                         }
@@ -28,7 +28,7 @@ struct ExploreRepoListView: View {
             }
 
             // end Section
-            ForEach(isArchive ? appVM.archiveRepos : appVM.exps) { er in
+            ForEach(appVM.exps) { er in
                 if SPC.gitHubAccessToken.isEmpty == false && showAsGroup == false {
 //                    Section {
 //                        ForEach(er.repos) { r in
@@ -75,13 +75,7 @@ struct ExploreRepoListView: View {
         } // end List
         .navigationTitle(showAsGroup == false ? "🥷🏻 库动态" : "👾 探索库" )
         .onAppear {
-            if isArchive {
-                appVM.loadArchiveRepos()
-            } else {
-                appVM.loadExpFromServer()
-            }
-            
-            
+            appVM.loadExpFromServer()
         }
         .onDisappear {
             appVM.updateWebLink(s: "")

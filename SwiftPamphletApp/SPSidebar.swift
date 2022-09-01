@@ -50,40 +50,15 @@ struct SPSidebar: View {
                     SideBarLabel(title: "探索库", imageName: "p24")
                 } // end NavigationLink
                 
-                NavigationLink {
-                    ExploreRepoListView(showAsGroup: true, isArchive: true)
-                } label: {
-                    SideBarLabel(title: "库存档", imageName: "p25")
-                }
-                
             } // end Section
 
-            Section("Swift指南") {
+            Section("编程") {
                 NavigationLink(destination: IssuesListFromCustomView(vm: IssueVM(guideName:"guide-syntax"))) {
-                    SideBarLabel(title: "语法速查", imageName: "p23")
+                    SideBarLabel(title: "Swift 手册", imageName: "p23")
                 }
-
-                NavigationLink(destination: IssuesListFromCustomView(vm: IssueVM(guideName:"guide-features"))) {
-                    SideBarLabel(title: "特性", imageName: "p10")
-                }
-
-                NavigationLink(destination: IssuesListFromCustomView(vm: IssueVM(guideName:"guide-subject"))) {
-                    SideBarLabel(title: "专题", imageName: "p12")
-                }
-            }
-            Section("库使用指南") {
                 NavigationLink(destination: IssuesListFromCustomView(vm: IssueVM(guideName:"lib-SwiftUI"))) {
                     SideBarLabel(title: "SwiftUI", imageName: "p3")
                 }
-                
-                NavigationLink(destination: IssuesListFromCustomView(vm: IssueVM(guideName:"lib-Combine"))) {
-                    SideBarLabel(title: "Combine", imageName: "p19")
-                }
-
-                NavigationLink(destination: IssuesListFromCustomView(vm: IssueVM(guideName:"lib-Concurrency"))) {
-                    SideBarLabel(title: "Concurrency", imageName: "p1")
-                }
-                
             }
 
 //            Section("个人") {

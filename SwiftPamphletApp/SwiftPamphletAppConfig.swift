@@ -8,7 +8,7 @@
 import Foundation
 
 struct SPC {
-    static let gitHubAccessToken = "" // 在这里写上 Github 的access token。在 https://github.com/settings/tokens 申请你的access token。
+    static let gitHubAccessToken = "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" // 在这里写上 Github 的access token。在 https://github.com/settings/tokens 申请你的access token。
     static let detailMinWidth: CGFloat = 550
     static let githubHost = "https://github.com/"
     static let pamphletIssueRepoName = "ming1016/Brochure"
@@ -81,6 +81,7 @@ struct SPReposModel: Jsonable {
 struct ARepoModel: Jsonable {
     var id: String
     var des: String?
+    var m: Bool?
 }
 
 struct RSSFeedModel: Jsonable {

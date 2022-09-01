@@ -170,13 +170,9 @@
 		086A5F422744EDCE00FECE02 /* IssueVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086A5F3F2744EDCE00FECE02 /* IssueVM.swift */; };
 		086A5F442744EE2800FECE02 /* SwiftPamphletAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086A5F432744EE2800FECE02 /* SwiftPamphletAppConfig.swift */; };
 		086A5F462744EEB900FECE02 /* FundationFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086A5F452744EEB900FECE02 /* FundationFunction.swift */; };
-		086A5F4D2744EF3B00FECE02 /* guide-features.json in Resources */ = {isa = PBXBuildFile; fileRef = 086A5F492744EF3B00FECE02 /* guide-features.json */; };
 		086A5F4F2744EF3B00FECE02 /* guide-syntax.json in Resources */ = {isa = PBXBuildFile; fileRef = 086A5F4B2744EF3B00FECE02 /* guide-syntax.json */; };
 		086A5F502744EF3B00FECE02 /* developers.json in Resources */ = {isa = PBXBuildFile; fileRef = 086A5F4C2744EF3B00FECE02 /* developers.json */; };
 		086A5F522744EF4C00FECE02 /* ViewComponet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086A5F512744EF4C00FECE02 /* ViewComponet.swift */; };
-		086A5F58274CB8B500FECE02 /* guide-subject.json in Resources */ = {isa = PBXBuildFile; fileRef = 086A5F57274CB8B500FECE02 /* guide-subject.json */; };
-		086A5F5A274CC17700FECE02 /* lib-Combine.json in Resources */ = {isa = PBXBuildFile; fileRef = 086A5F59274CC17700FECE02 /* lib-Combine.json */; };
-		086A5F5D274CCAEC00FECE02 /* lib-Concurrency.json in Resources */ = {isa = PBXBuildFile; fileRef = 086A5F5B274CCAEC00FECE02 /* lib-Concurrency.json */; };
 		086A5F5E274CCAEC00FECE02 /* lib-SwiftUI.json in Resources */ = {isa = PBXBuildFile; fileRef = 086A5F5C274CCAEC00FECE02 /* lib-SwiftUI.json */; };
 		086A5F642754C14F00FECE02 /* PlayTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086A5F632754C14F00FECE02 /* PlayTextView.swift */; };
 		086A5F672754C27900FECE02 /* DBHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086A5F662754C27900FECE02 /* DBHandler.swift */; };
@@ -202,7 +198,6 @@
 		08AEAEF7277F389300B969E2 /* RSSItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AEAEF6277F389300B969E2 /* RSSItemContentView.swift */; };
 		08AEAEFA277F3C7400B969E2 /* css.html in Resources */ = {isa = PBXBuildFile; fileRef = 08AEAEF9277F3C7400B969E2 /* css.html */; };
 		08B4C9392770B26700742084 /* CCYRSSReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B4C9382770B26700742084 /* CCYRSSReq.swift */; };
-		08B4C93C2774786800742084 /* archiveRepos.json in Resources */ = {isa = PBXBuildFile; fileRef = 08B4C93B2774786800742084 /* archiveRepos.json */; };
 		08BE632A27BE220D002BC6A8 /* 146.md in Resources */ = {isa = PBXBuildFile; fileRef = 08BE632927BE220D002BC6A8 /* 146.md */; };
 		08BE632C27BE3762002BC6A8 /* 147.md in Resources */ = {isa = PBXBuildFile; fileRef = 08BE632B27BE3762002BC6A8 /* 147.md */; };
 		08BE632E27BE3A95002BC6A8 /* PlayLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BE632D27BE3A95002BC6A8 /* PlayLabelView.swift */; };
@@ -431,13 +426,9 @@
 		086A5F3F2744EDCE00FECE02 /* IssueVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueVM.swift; sourceTree = "<group>"; };
 		086A5F432744EE2800FECE02 /* SwiftPamphletAppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPamphletAppConfig.swift; sourceTree = "<group>"; };
 		086A5F452744EEB900FECE02 /* FundationFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FundationFunction.swift; sourceTree = "<group>"; };
-		086A5F492744EF3B00FECE02 /* guide-features.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "guide-features.json"; sourceTree = "<group>"; };
 		086A5F4B2744EF3B00FECE02 /* guide-syntax.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "guide-syntax.json"; sourceTree = "<group>"; };
 		086A5F4C2744EF3B00FECE02 /* developers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = developers.json; sourceTree = "<group>"; };
 		086A5F512744EF4C00FECE02 /* ViewComponet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewComponet.swift; sourceTree = "<group>"; };
-		086A5F57274CB8B500FECE02 /* guide-subject.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "guide-subject.json"; sourceTree = "<group>"; };
-		086A5F59274CC17700FECE02 /* lib-Combine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "lib-Combine.json"; sourceTree = "<group>"; };
-		086A5F5B274CCAEC00FECE02 /* lib-Concurrency.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "lib-Concurrency.json"; sourceTree = "<group>"; };
 		086A5F5C274CCAEC00FECE02 /* lib-SwiftUI.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "lib-SwiftUI.json"; sourceTree = "<group>"; };
 		086A5F632754C14F00FECE02 /* PlayTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayTextView.swift; sourceTree = "<group>"; };
 		086A5F662754C27900FECE02 /* DBHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHandler.swift; sourceTree = "<group>"; };
@@ -464,7 +455,6 @@
 		08AEAEF6277F389300B969E2 /* RSSItemContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSItemContentView.swift; sourceTree = "<group>"; };
 		08AEAEF9277F3C7400B969E2 /* css.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = css.html; sourceTree = "<group>"; };
 		08B4C9382770B26700742084 /* CCYRSSReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCYRSSReq.swift; sourceTree = "<group>"; };
-		08B4C93B2774786800742084 /* archiveRepos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = archiveRepos.json; sourceTree = "<group>"; };
 		08BE632927BE220D002BC6A8 /* 146.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 146.md; sourceTree = "<group>"; };
 		08BE632B27BE3762002BC6A8 /* 147.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = 147.md; sourceTree = "<group>"; };
 		08BE632D27BE3A95002BC6A8 /* PlayLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayLabelView.swift; sourceTree = "<group>"; };
@@ -581,20 +571,12 @@
 		08448F44279E7E0300B61353 /* Syntax */ = {
 			isa = PBXGroup;
 			children = (
-				08448FD8279EC6E100B61353 /* Operator */,
-				08448FD1279EC5EB00B61353 /* Collection */,
-				08448FC6279EC52300B61353 /* ControlFlow */,
-				08448FBD279EC43100B61353 /* FunctionalProgramming */,
-				08448FB2279EC35C00B61353 /* ClassAndStruct */,
-				08448FA1279EBAFC00B61353 /* BaseType */,
-				08448F93279EB93800B61353 /* Base */,
-			);
-			path = Syntax;
-			sourceTree = "<group>";
-		};
-		08448F45279E7E1A00B61353 /* Features */ = {
-			isa = PBXGroup;
-			children = (
+				08026C332869999800792EF1 /* APMAndBuilder */,
+				084E1A6127B517990072BBB6 /* SwiftThoseThings */,
+				08448F61279EB2B700B61353 /* Standard */,
+				08448F5F279EB25F00B61353 /* RecommendedMaterials */,
+				08448F5C279EB19700B61353 /* ThirdLibUse */,
+				08448F4F279E8E9F00B61353 /* macOS */,
 				08026C312869990100792EF1 /* Tool */,
 				0850445227B110A50096D556 /* InsideProtocol */,
 				0850445127B110950096D556 /* InsidePropertyWrapper */,
@@ -606,21 +588,15 @@
 				08448F7F279EB73C00B61353 /* System */,
 				08448F7C279EB6F700B61353 /* Pattern */,
 				08448F67279EB40D00B61353 /* BasicLibrary */,
+				08448FD8279EC6E100B61353 /* Operator */,
+				08448FD1279EC5EB00B61353 /* Collection */,
+				08448FC6279EC52300B61353 /* ControlFlow */,
+				08448FBD279EC43100B61353 /* FunctionalProgramming */,
+				08448FB2279EC35C00B61353 /* ClassAndStruct */,
+				08448FA1279EBAFC00B61353 /* BaseType */,
+				08448F93279EB93800B61353 /* Base */,
 			);
-			path = Features;
-			sourceTree = "<group>";
-		};
-		08448F46279E7E3400B61353 /* Subject */ = {
-			isa = PBXGroup;
-			children = (
-				08026C332869999800792EF1 /* APMAndBuilder */,
-				084E1A6127B517990072BBB6 /* SwiftThoseThings */,
-				08448F61279EB2B700B61353 /* Standard */,
-				08448F5F279EB25F00B61353 /* RecommendedMaterials */,
-				08448F5C279EB19700B61353 /* ThirdLibUse */,
-				08448F4F279E8E9F00B61353 /* macOS */,
-			);
-			path = Subject;
+			path = Syntax;
 			sourceTree = "<group>";
 		};
 		08448F47279E7E3A00B61353 /* SwiftUI */ = {
@@ -1205,14 +1181,8 @@
 				08448F49279E7E4B00B61353 /* Concurrency */,
 				08448F48279E7E4100B61353 /* Combine */,
 				08448F47279E7E3A00B61353 /* SwiftUI */,
-				08448F46279E7E3400B61353 /* Subject */,
-				08448F45279E7E1A00B61353 /* Features */,
 				08448F44279E7E0300B61353 /* Syntax */,
-				086A5F57274CB8B500FECE02 /* guide-subject.json */,
-				086A5F492744EF3B00FECE02 /* guide-features.json */,
 				086A5F4B2744EF3B00FECE02 /* guide-syntax.json */,
-				086A5F59274CC17700FECE02 /* lib-Combine.json */,
-				086A5F5B274CCAEC00FECE02 /* lib-Concurrency.json */,
 				086A5F5C274CCAEC00FECE02 /* lib-SwiftUI.json */,
 				0844902F279ECF7D00B61353 /* 1.md */,
 			);
@@ -1251,7 +1221,6 @@
 		08B4C93A277477E100742084 /* Archive */ = {
 			isa = PBXGroup;
 			children = (
-				08B4C93B2774786800742084 /* archiveRepos.json */,
 				08448F42279B83C000B61353 /* archiveDevelopers.json */,
 			);
 			path = Archive;
@@ -1440,7 +1409,6 @@
 				08026C492869B38300792EF1 /* 182.md in Resources */,
 				0850444E27B0D4EA0096D556 /* 136.md in Resources */,
 				08C3BBA227CF1B2B00ACF0FE /* 164.md in Resources */,
-				086A5F5A274CC17700FECE02 /* lib-Combine.json in Resources */,
 				08448FBA279EC3EA00B61353 /* 23.md in Resources */,
 				08448FD0279EC5CC00B61353 /* 35.md in Resources */,
 				08F51BC527A374A500693AB6 /* footer_js.html in Resources */,
@@ -1462,14 +1430,12 @@
 				08448FC1279EC4B500B61353 /* 26.md in Resources */,
 				08448F9C279EBA8200B61353 /* 7.md in Resources */,
 				08448FAF279EC31200B61353 /* 15.md in Resources */,
-				086A5F5D274CCAEC00FECE02 /* lib-Concurrency.json in Resources */,
 				08449029279ECEB100B61353 /* 71.md in Resources */,
 				08448F79279EB68D00B61353 /* 127.md in Resources */,
 				08BE632A27BE220D002BC6A8 /* 146.md in Resources */,
 				08448F5B279EA84100B61353 /* 131.md in Resources */,
 				0844900A279ECB8C00B61353 /* 86.md in Resources */,
 				08026C4D2869B3A600792EF1 /* 187.md in Resources */,
-				08B4C93C2774786800742084 /* archiveRepos.json in Resources */,
 				08449011279ECC3E00B61353 /* 57.md in Resources */,
 				08448FE2279EC7CF00B61353 /* 43.md in Resources */,
 				08449002279ECB0500B61353 /* 82.md in Resources */,
@@ -1485,9 +1451,7 @@
 				08449004279ECB2900B61353 /* 83.md in Resources */,
 				08BE634A27C4BDDB002BC6A8 /* 151.md in Resources */,
 				08448F89279EB7FD00B61353 /* 89.md in Resources */,
-				086A5F4D2744EF3B00FECE02 /* guide-features.json in Resources */,
 				08449018279ECD2400B61353 /* 63.md in Resources */,
-				086A5F58274CB8B500FECE02 /* guide-subject.json in Resources */,
 				08448FAD279EC2E900B61353 /* 14.md in Resources */,
 				08026C532869B44400792EF1 /* 192.md in Resources */,
 				08448F66279EB33F00B61353 /* 103.md in Resources */,
