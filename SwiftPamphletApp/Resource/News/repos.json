@@ -92,7 +92,8 @@
             },
             {
                 "id":"jordibruin/Swift-Charts-Examples",
-                "des":"Swift Charts 制作的不同类型图表示例"
+                "des":"Swift Charts 制作的不同类型图表示例",
+                "m":true
             }
         ]
     },
@@ -104,7 +105,8 @@
                 "id":"onevcat/Kingfisher"
             },
             {
-                "id":"kean/Nuke"
+                "id":"kean/Nuke",
+                "m":true
             },
             {
                 "id":"suzuki-0000/SKPhotoBrowser",
@@ -121,23 +123,33 @@
                 "des":"Markdown 解析器"
             },
             {
-                "id":"coteditor/CotEditor"
+                "id":"coteditor/CotEditor",
+                "m":true
             },
             {
                 "id":"mchakravarty/CodeEditorView",
-                "des":"SwiftUI 写的代码编辑器"
+                "des":"SwiftUI 写的代码编辑器",
+                "m":true
             },
             {
                 "id":"CodeEditApp/CodeEdit",
-                "des":"原生，性能好的代码编辑器"
+                "des":"原生，性能好的代码编辑器",
+                "m":true
             },
             {
                 "id":"ZeeZide/CodeEditor",
-                "des":"使用 Highlight.js 的来做语法高亮的 SwiftUI 编辑器"
+                "des":"使用 Highlight.js 的来做语法高亮的 SwiftUI 编辑器",
+                "m":true
             },
             {
                 "id":"tw93/MiaoYan",
-                "des":"轻灵的 Markdown 笔记本伴你写出妙言"
+                "des":"轻灵的 Markdown 笔记本伴你写出妙言",
+                "m":true
+            },
+            {
+                "id":"glushchenko/fsnotes",
+                "des":"macOS 和 iOS 上的笔记管理软件",
+                "m":true
             },
             {
                 "id":"twostraws/Sourceful",
@@ -190,9 +202,6 @@
             {
                 "id":"danielsaidi/RichTextKit",
                 "des":"RichTextKit 是一个基于 Swift 的库，用于在 UIKit、AppKit 和 SwiftUI 中处理富文本。"
-            },
-            {
-                "id":"glushchenko/fsnotes"
             }
         ]
     },
@@ -218,10 +227,12 @@
         "id":2111231308,
         "repos":[
             {
-                "id":"stephencelis/SQLite.swift"
+                "id":"stephencelis/SQLite.swift",
+                "m":true
             },
             {
-                "id":"groue/GRDB.swift"
+                "id":"groue/GRDB.swift",
+                "m":true
             },
             {
                 "id":"caiyue1993/IceCream",
@@ -236,11 +247,13 @@
             },
             {
                 "id":"mergesort/Boutique",
-                "des":"只需两行代码即可构建实时更新的 Swift 离线就绪应用程序，快速集成。"
+                "des":"只需两行代码即可构建实时更新的 Swift 离线就绪应用程序，快速集成。",
+                "m":true
             },
             {
                 "id":"Lighter-swift/Lighter",
-                "des":"轻量写法简单的访问 SQLite3"
+                "des":"轻量写法简单的访问 SQLite3",
+                "m":true
             },
             {
                 "id":"maticzav/swift-graphql",
@@ -254,7 +267,8 @@
         "repos":[
             {
                 "id":"ReactiveX/RxSwift",
-                "des":"函数响应式编程"
+                "des":"函数响应式编程",
+                "m":true
             },
             {
                 "id":"pointfreeco/swift-composable-architecture"
@@ -304,7 +318,8 @@
         "id":2111231117,
         "repos":[
             {
-                "id":"realm/SwiftLint"
+                "id":"realm/SwiftLint",
+                "m":true
             }
         ]
     },
@@ -802,11 +817,13 @@
         "repos":[
             {
                 "id":"tuist/tuist",
-                "des":"创建和维护 Xcode projects 文件"
+                "des":"创建和维护 Xcode projects 文件",
+                "m":true
             },
             {
                 "id":"swift-server/vscode-swift",
-                "des":"VSCode 的 Swift 扩展"
+                "des":"VSCode 的 Swift 扩展",
+                "m":true
             },
             {
                 "id":"peripheryapp/periphery",
@@ -876,7 +893,8 @@
             },
             {
                 "id":"johnno1962/InjectionIII",
-                "des":"Hot reload"
+                "des":"Hot reload",
+                "m":true
             },
             {
                 "id":"johnno1962/HotSwiftUI",
@@ -1072,7 +1090,8 @@
         "id":2111241208,
         "repos":[
             {
-                "id":"iina/iina"
+                "id":"iina/iina",
+                "m":true
             },
             {
                 "id":"shogo4405/HaishinKit.swift",
@@ -1102,7 +1121,8 @@
             },
             {
                 "id":"blender/blender",
-                "des":"新起开源 3D 建模渲染软件"
+                "des":"新起开源 3D 建模渲染软件",
+                "m":true
             },
             {
                 "id":"mifi/lossless-cut",
@@ -1257,7 +1277,8 @@
             },
             {
                 "id":"Planetable/Planet",
-                "des":"由 IPFS 和以太坊名称系统提供支持的去中心化博客和网站"
+                "des":"由 IPFS 和以太坊名称系统提供支持的去中心化博客和网站",
+                "m":true
             }
         ]
     },
@@ -1289,7 +1310,8 @@
             },
             {
                 "id":"migueldeicaza/SwiftTerm",
-                "des":"Swift 写的终端"
+                "des":"Swift 写的终端",
+                "m":true
             },
             {
                 "id":"Jounce/Surge",
@@ -1338,17 +1360,20 @@
                 "id":"apple/swift-package-manager"
             },
             {
-                "id":"apple/swift-markdown"
+                "id":"apple/swift-markdown",
+                "m":true
             },
             {
-                "id":"apple/sourcekit-lsp"
+                "id":"apple/sourcekit-lsp",
+                "m":true
             },
             {
                 "id":"apple/swift-nio"
             },
             {
                 "id":"apple/swift-syntax",
-                "des":"解析、生成、转换 Swift 代码"
+                "des":"解析、生成、转换 Swift 代码",
+                "m":true
             },
             {
                 "id":"apple/swift-crypto",
