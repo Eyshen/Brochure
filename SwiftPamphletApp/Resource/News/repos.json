@@ -1209,6 +1209,10 @@
             },
             {
                 "id":"mozilla-mobile/firefox-ios"
+            },
+            {
+                "id":"WebKit/WebKit",
+                "des":"Safari 浏览器引擎，包含了 JavaScriptCore"
             }
         ]
     },

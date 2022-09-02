@@ -18,7 +18,7 @@ struct IntroView: View {
                 .frame(width: 120, height: 120)
             Text("戴铭的小册子").bold().font(.largeTitle)
             HStack {
-                Text("开发常用手册和资料")
+                Text("我写的开发常用手册、兴趣爱好和资料")
                 Link("GitHub 地址", destination: URL(string: "https://github.com/ming1016/Brochure")!)
             }
             Text("版本1.0").font(.footnote)
