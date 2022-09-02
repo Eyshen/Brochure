@@ -19,7 +19,7 @@ struct GuideView: View {
             Spacer()
         }
         .padding(EdgeInsets(top: 10, leading: 10, bottom: 2, trailing: 10))
-        WebUIView(html: wrapperHtmlContent(content: MarkdownParser().html(from: "\(loadBundleString("\(number)" + ".md"))")), baseURLStr: "")
+        WebUIView(html: wrapperHtmlContent(content: MarkdownParser().html(from: "\(loadBundleString(title + " - \(number)" + ".md"))")), baseURLStr: "")
             .onAppear {
                 appVM.updateWebLink(s: "https://github.com/\(SPC.pamphletIssueRepoName)/issues/" + "\(number)")
             }

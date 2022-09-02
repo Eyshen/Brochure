@@ -1,4 +1,4 @@
-![](https://user-images.githubusercontent.com/251980/156289124-bde3c73e-2a81-4043-8682-ae55a820f1aa.png)
+![](https://ming1016.github.io/uploads/brochure-img/19.png)
 
 Toggle 可以设置 toggleStyle，可以自定义样式。使用示例如下
 

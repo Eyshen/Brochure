@@ -1,4 +1,4 @@
-![](https://user-images.githubusercontent.com/251980/156298284-2fb37b3e-55f0-4918-ba8e-74f747bf3171.jpeg)
+![](https://ming1016.github.io/uploads/brochure-img/20.jpeg)
 
 有 Picker 视图，还有颜色和时间选择的 ColorPicker 和 DatePicker。
 

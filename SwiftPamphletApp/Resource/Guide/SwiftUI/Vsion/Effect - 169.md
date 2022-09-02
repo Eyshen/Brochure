@@ -1,4 +1,4 @@
-![](https://user-images.githubusercontent.com/251980/156332122-66813e4e-851c-4207-8cb9-b41ea0365008.jpeg)
+![](https://ming1016.github.io/uploads/brochure-img/21.jpeg)
 
 ```swift
 struct PlayEffect: View {

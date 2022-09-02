@@ -1,6 +1,6 @@
 效果如下：
 
-![](https://user-images.githubusercontent.com/251980/150132322-20c5c2d4-6452-4d06-9202-4b93cffd8133.png)
+![](https://ming1016.github.io/uploads/brochure-img/1.png)
 
 代码如下：
 ```swift

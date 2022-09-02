@@ -1,4 +1,4 @@
-![](https://user-images.githubusercontent.com/251980/155317172-dc137c38-64d0-415a-8412-e3f479f2bd91.png)
+![](https://ming1016.github.io/uploads/brochure-img/13.png)
 
 ```swift
 struct PlayGroupBoxView: View {

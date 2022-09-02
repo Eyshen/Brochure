@@ -1,6 +1,6 @@
 Stack View 有 VStack、HStack 和 ZStack
 
-![](https://user-images.githubusercontent.com/251980/155077158-f6efd3bb-4b82-48ac-b5e6-792dd833dfda.jpeg)
+![](https://ming1016.github.io/uploads/brochure-img/14.jpeg)
 
 ```swift
 struct PlayStackView: View {
