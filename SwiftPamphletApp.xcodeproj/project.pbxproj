@@ -1005,8 +1005,6 @@
 		086A5EFA2744E88E00FECE02 = {
 			isa = PBXGroup;
 			children = (
-				0886702A27F803E20001EA81 /* InstrProfiling.h */,
-				0886702D27F804010001EA81 /* module.modulemap */,
 				086A5F052744E88E00FECE02 /* SwiftPamphletApp */,
 				086A5F042744E88E00FECE02 /* Products */,
 				0886702B27F804010001EA81 /* SwiftPamphletApp-Bridging-Header.h */,
@@ -1032,13 +1030,7 @@
 				086A5F472744EF0800FECE02 /* Resource */,
 				086A5F252744ECD700FECE02 /* GitHubAPI */,
 				08CD61F327758855008C0935 /* RSSReader */,
-				083554E227572BB60095E0EE /* AppVM.swift */,
-				086A5F432744EE2800FECE02 /* SwiftPamphletAppConfig.swift */,
-				086A5F062744E88E00FECE02 /* SwiftPamphletAppApp.swift */,
-				08AEAEF4277F0A1E00B969E2 /* SPSidebar.swift */,
-				08AEAEF0277F09D000B969E2 /* IntroView.swift */,
-				08AEAEF2277F09FA00B969E2 /* NavView.swift */,
-				084E1A6427B51EDB0072BBB6 /* AutoTask.swift */,
+				088A05ED28C20E9A00416E6D /* App */,
 				086A5F0A2744E89100FECE02 /* Assets.xcassets */,
 				086A5F0F2744E89100FECE02 /* SwiftPamphletApp.entitlements */,
 				086A5F0C2744E89100FECE02 /* Preview Content */,
@@ -1136,6 +1128,22 @@
 				08AEAEE0277EA70500B969E2 /* DBRepoStore.swift */,
 			);
 			path = DB;
+			sourceTree = "<group>";
+		};
+		088A05ED28C20E9A00416E6D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				083554E227572BB60095E0EE /* AppVM.swift */,
+				086A5F432744EE2800FECE02 /* SwiftPamphletAppConfig.swift */,
+				086A5F062744E88E00FECE02 /* SwiftPamphletAppApp.swift */,
+				08AEAEF4277F0A1E00B969E2 /* SPSidebar.swift */,
+				08AEAEF0277F09D000B969E2 /* IntroView.swift */,
+				08AEAEF2277F09FA00B969E2 /* NavView.swift */,
+				084E1A6427B51EDB0072BBB6 /* AutoTask.swift */,
+				0886702A27F803E20001EA81 /* InstrProfiling.h */,
+				0886702D27F804010001EA81 /* module.modulemap */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 		0896FB9327BA60AA00676B7F /* Guide */ = {
